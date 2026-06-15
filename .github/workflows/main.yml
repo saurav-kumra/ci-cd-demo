@@ -1,0 +1,28 @@
+name: My cicd pipeline in gub action 
+on: 
+   push:
+      branches: main 
+jobs: 
+   build: 
+     runs-on: ubuntu-latest
+     
+     steps: 
+      - uses: action/checkout@v4
+      - name: 
+        run: 
+         echo "this is DEVops commit first"
+         uname -a 
+
+
+
+
+
+
+
+
+      
+      
+
+
+
+
